@@ -4,4 +4,5 @@ bin/Release/netstandard2.0/publish/web.config
 bin/Release/netstandard2.0/dist/*
 bin/Release/netstandard2.0/*.*
 bin/Debug/*
+bin/*
 !bin/Release/netstandard2.0/publish/BlazorAp1/dist/*
