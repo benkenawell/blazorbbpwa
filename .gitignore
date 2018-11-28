@@ -1,3 +1,7 @@
-bin/*
 obj/Debug/*
 obj/Release/*
+bin/Release/netstandard2.0/publish/web.config
+bin/Release/netstandard2.0/dist/*
+bin/Release/netstandard2.0/*.*
+bin/Debug/*
+!bin/Release/netstandard2.0/publish/BlazorAp1/dist/*
