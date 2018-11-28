@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
     <title>BlazorAp1</title>
-    <base href="/blazorbbpwa" />
+    <base href="blazorbbpwa/" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="css/site.css" rel="stylesheet" />
     <link rel="manifest" href="/manifest.json">
@@ -40,7 +40,7 @@
         }
       }(window.location))
     </script>
-    <script src="_framework/blazor.webassembly.js"></script>
+    
     <script>
         if ('serviceWorker' in navigator) {
           // Override the default scope of '/' with './', so that the registration applies
@@ -57,5 +57,6 @@
           aElement.textContent = 'unavailable';
         }
       </script>
+      <script src="_framework/blazor.webassembly.js"></script>
 </body>
 </html>
