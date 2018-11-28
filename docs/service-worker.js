@@ -33,7 +33,6 @@ self.addEventListener('install', function(event) {
   var now = Date.now();
 
   var urlsToPrefetch = [
-    'favicon.ico',
     'sample-data/weather.json',
   ];
 
